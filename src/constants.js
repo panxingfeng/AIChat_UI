@@ -331,58 +331,6 @@ export const VOICE_MODES = [
   }
 ];
 
-// 语音选项
-export const VOICE_OPTIONS = [
-  '成熟女声',
-  '温柔女声',
-  '成熟男声',
-  '阳光男声',
-  '童声'
-];
-
-export const VOICE_PRESETS = {
-  MATURE_FEMALE: {
-    id: 'mature_female',
-    name: '成熟女声',
-    pitch: 1.0,
-    rate: 1.0,
-    volume: 1.0,
-    language: 'zh-CN'
-  },
-  SOFT_FEMALE: {
-    id: 'soft_female',
-    name: '温柔女声',
-    pitch: 1.2,
-    rate: 0.9,
-    volume: 0.9,
-    language: 'zh-CN'
-  },
-  MATURE_MALE: {
-    id: 'mature_male',
-    name: '成熟男声',
-    pitch: 0.8,
-    rate: 1.0,
-    volume: 1.0,
-    language: 'zh-CN'
-  },
-  ENERGETIC_MALE: {
-    id: 'energetic_male',
-    name: '阳光男声',
-    pitch: 1.0,
-    rate: 1.1,
-    volume: 1.0,
-    language: 'zh-CN'
-  },
-  CHILD: {
-    id: 'child',
-    name: '童声',
-    pitch: 1.5,
-    rate: 1.1,
-    volume: 0.9,
-    language: 'zh-CN'
-  }
-};
-
 // 上传配置
 export const UPLOAD_CONFIG = {
   maxImageSize: 10 * 1024 * 1024, // 10MB
