@@ -14,7 +14,10 @@
 npx create-react-app aichat_ui
 cd AIChat_UI
 替换src下的内容即可 tailwind.config.js和
-控制台输入 npm start
+```
+控制台输入
+```bash
+npm install tailwindcss
 ```
 
 ## npm安装
