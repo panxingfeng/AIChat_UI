@@ -3,9 +3,7 @@ import { Copy, Check, Image as ImageIcon, Pause, Play, RotateCcw } from 'lucide-
 
 const MessageContent = ({
   content,
-  type = 'text', // 'text' | 'code' | 'mixed' | 'voice'
-  voiceUrl,      // 新增语音URL参数
-  voiceDuration  // 新增语音时长参数
+  type = 'text',
 }) => {
   const [copied, setCopied] = React.useState(false);
   const [isPlaying, setIsPlaying] = React.useState(false);
