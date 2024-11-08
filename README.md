@@ -20,6 +20,7 @@ cd AIChat_UI
 npm install tailwindcss
 npx tailwindcss init
 npm install lucide-react
+npm install clsx tailwind-merge zustand @radix-ui/react-dialog @radix-ui/react-scroll-area tailwindcss-animate
 
 ```
 
