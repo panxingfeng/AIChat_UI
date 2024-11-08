@@ -20,7 +20,6 @@ const ChatArea = ({
     );
   }
 
-  // 获取消息气泡样式
   return (
     <div className="w-full mx-auto p-6 space-y-6">
       {/* 消息列表 */}
