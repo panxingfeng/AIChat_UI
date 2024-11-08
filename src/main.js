@@ -4,7 +4,6 @@ import {
 } from 'lucide-react';
 import { useChat } from './hooks/useChat';
 import { useDrawing } from './hooks/useDrawing';
-import { useVoice } from './hooks/useVoice';
 import { useFileUpload } from './hooks/useFileUpload';
 import Sidebar from './components/sidebar/Sidebar';
 import TopNav from './components/TopNav';
@@ -65,13 +64,6 @@ const StreamingOutput = () => {
     setShowCreationRecord,
     handleCloseImageDetail
   } = useDrawing();
-
-  const {
-    voiceOptions,
-    selectedVoice,
-    handleVoiceSelect,
-    toggleVoiceOptions
-  } = useVoice();
 
   const {
     uploadedImages,
@@ -238,10 +230,6 @@ const tools = [
             handleFileUpload={handleFileUpload}
             handleDeleteImage={handleDeleteImage}
             quickTools={quickTools}
-            voiceOptions={voiceOptions}
-            selectedVoice={selectedVoice}
-            handleVoiceSelect={handleVoiceSelect}
-            toggleVoiceOptions={toggleVoiceOptions}
           />
         )}
       </div>
