@@ -22,8 +22,9 @@ npx tailwindcss init
 npm install lucide-react
 npm install clsx tailwind-merge zustand @radix-ui/react-dialog @radix-ui/react-scroll-area tailwindcss-animate
 npm start
-
 ```
+
+后端的端点修改：在constants.js下的API_CONFIG中根据自己的后端代码进行修改
 
 ## npm安装
 安装教程:[链接](https://blog.csdn.net/zhouyan8603/article/details/109039732)
