@@ -9,6 +9,13 @@
 
 ## 项目简介
 基于React搭建AIChat的UI界面
+```bash
+打开终端，进入你想创建项目的目录
+npx create-react-app AIChat_UI
+cd AIChat_UI
+替换src下的内容即可
+控制台输入 npm start
+```
 
 ## npm安装
 安装教程:[链接](https://blog.csdn.net/zhouyan8603/article/details/109039732)
