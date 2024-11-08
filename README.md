@@ -3,10 +3,10 @@
 基于React搭建AIChat的UI界面
 
 聊天界面
-![示例图片](./images/chat.png)
+![示例图片](./images/index.png)
 
 绘图界面
-![示例图片](./images/deaw.png)
+![示例图片](./images/draw.png)
 
 智能体界面
 ![示例图片](./images/agent.png)
